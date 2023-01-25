@@ -4,8 +4,8 @@ import ClassComponent from "./components/ClassComponent";
 function App() {
   return (
     <div className="App">
-      <FunctionalComponent></FunctionalComponent>
-      <ClassComponent></ClassComponent>
+      <FunctionalComponent name="Function"></FunctionalComponent>
+      <ClassComponent name="Class"></ClassComponent>
     </div>
   );
 }
